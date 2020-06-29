@@ -1,7 +1,7 @@
 import React from 'react'; 
 import { Button, Grid, Paper, Typography } from "@material-ui/core";
 
-import Authbackground  from "./Components/Authbackground";
+import Authbackground  from "./Authbackground";
 
 function Signinform({ handleSubmit, submitting, pristine, invalid }) {
   return (

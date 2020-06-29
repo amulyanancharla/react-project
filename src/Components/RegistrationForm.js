@@ -18,7 +18,7 @@ function Registrationform({handleSubmit, submitting}) {
             </Typography>
           </Grid>
           <Grid item container direction="row">
-            <Grid sm={6}>
+            <Grid sm={5}>
               
               <TextField id="Enter Full Name" label="Enter Full Name" variant="outlined" />
               <TextField id="Mobile Number" label="Mobile Number" variant="outlined" />
@@ -27,9 +27,8 @@ function Registrationform({handleSubmit, submitting}) {
               <TextField id="ReEnter Password" label="ReEnter Password" variant="outlined" />
 
             </Grid>
-            <Grid sm={6}>
-              <Logo />
-            </Grid>
+          
+            
           </Grid>
           <Grid item>
             <Button
