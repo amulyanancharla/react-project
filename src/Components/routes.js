@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Example from "./Example";
-import RegistrationForm from "./RegistrationForm";
-import SignInForm from "./SignInForm";
-import NewSignInPage from "./NewSignInPage";
-import NewRegistrationForm from "./NewRegistrationForm";
-import ForgotPassword from "./ForgotPassword";
+import Example from "./auth/Example";
+import RegistrationForm from "./auth/RegistrationForm";
+import SignInForm from "./auth/SignInForm";
+import NewSignInPage from "./auth/NewSignInPage";
+import NewRegistrationForm from "./auth/NewRegistrationForm";
+import ForgotPassword from "./auth/ForgotPassword";
 
 export default (
   <BrowserRouter>
