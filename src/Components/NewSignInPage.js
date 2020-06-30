@@ -3,15 +3,13 @@ import { Button, Grid, Paper, Typography } from "@material-ui/core";
 import Logo from "./Logo";
 import TextField from "@material-ui/core/TextField";
 
-/*import Authbackground from "./Authbackground";*/
-
 function NewSignInPage() {
   return (
 	<Grid container>
 		<Grid item xs={12} container style={{backgroundColor: 'blue', height: '15rem'}} alignItems="center" justify="center">
 			<Logo />
 		</Grid>
-		<Grid container justify ="center" style={{backgroundColor: 'red', height: '3rem'}} >
+		<Grid container justify ="center" style={{backgroundColor: '#33b2ff', height: "4rem"}} >
 			<Grid item xs={6}>
 				<Paper style ={{padding:"2rem", marginTop: '1rem'}}>
 					<Grid container spacing={6}>

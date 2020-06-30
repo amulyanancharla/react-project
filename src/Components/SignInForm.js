@@ -38,7 +38,7 @@ function Signinform({ handleSubmit, submitting, pristine, invalid }) {
                     <Button
                       color="primary"
                       type="submit"
-                      // disabled={submitting || pristine || invalid}
+                        // disabled={submitting || pristine || invalid}
                     >
                       Forgot Password
                     </Button>
