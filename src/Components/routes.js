@@ -6,6 +6,7 @@ import RegistrationForm from "./RegistrationForm";
 import SignInForm from "./SignInForm";
 import NewSignInPage from "./NewSignInPage";
 import NewRegistrationForm from "./NewRegistrationForm";
+import ForgotPassword from "./ForgotPassword";
 
 export default (
   <BrowserRouter>
@@ -15,6 +16,7 @@ export default (
       <Route path="/signin" exact component={SignInForm} />
       <Route path="/signin2" exact component={NewSignInPage} />
       <Route path="/signup2" exact component={NewRegistrationForm} />
+      <Route path="/forgot_password" exact component={ForgotPassword} />
     </Switch>
     
   </BrowserRouter>

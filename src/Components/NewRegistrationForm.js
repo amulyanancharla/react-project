@@ -10,6 +10,7 @@ function NewRegistrationForm() {
 		    <Logo />
 		  </Grid>
 		  <Grid container justify="center" style={{ backgroundColor: "#33b2ff", height: "4em"}}>
+		    <Grid item xs={10}>
 		    <Paper style={{padding : "2rem", margin: "1rem"}}>
 		      <Grid container spacing={2} direction="column">
 		        <Grid item>
@@ -17,22 +18,24 @@ function NewRegistrationForm() {
 		            Registration Process
 		          </Typography>
 		        </Grid>
-		        <Grid container direction="column">
-		          <Grid sm={6}>
+		        <Grid item xs={6}>
+		          <Grid item container direction="column">
 		            <TextField id="Enter Full Name" label="Enter Full Name" variant="outlined" />
 		            <TextField id="Mobile Number" label="Mobile Number" variant="outlined" />
 		            <TextField id="Jurisdiction" label="Jurisdiction" variant="outlined" />
 		            <TextField id="Password" label="Password" variant="outlined" />
 		            <TextField id="Re-Enter Password" label="Re-Enter Password" variant="outlined" />
 		          </Grid>
-                </Grid>
-                <Grid item>
-                  <Button variant="contained" color="primary" type="Submit">
-                    Submit
-                  </Button>
+               
+                  <Grid item container justify="space-between">
+                    <Button variant="contained" color="primary" type="Submit">
+                      Submit
+                    </Button>
+                  </Grid>
                 </Grid>
               </Grid>
 		    </Paper>
+		    </Grid>
 		  </Grid>
 		</Grid>
 	);

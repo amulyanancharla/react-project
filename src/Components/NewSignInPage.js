@@ -53,6 +53,12 @@ function NewSignInPage() {
 					</Grid>
 				</Paper>
 			</Grid>
+			<Grid container justify="center" style={{margin: "2rem 0rem",color: "red",fontsize: "8px"}}>
+			  <Typography>
+			    POWERED BY GANGS TRACK INC
+			  </Typography>
+             
+            </Grid>
 		</Grid>
 	</Grid>
   );
