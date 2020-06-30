@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button, Grid, Paper, Typography } from "@material-ui/core";
-import Logo from "./Logo";
+import Logo from "../general/Logo";
 import Authbackground from "./Authbackground";
 import TextField from '@material-ui/core/TextField';
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, makeStyles } from "@material-ui/core";
 
-import Logo  from "./general/Logo";
+import Logo  from "../general/Logo";
 
 const useStyles = makeStyles(({ palette }) => ({
   root: {
